@@ -1,1 +1,15 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+#icon-red {
+  color: red;
+}
+
+#icon-black {
+  color: black;
+}
+
+#icon2-red {
+  color: red;
+}
+
+#icon2-black {
+  color: black;
+}
