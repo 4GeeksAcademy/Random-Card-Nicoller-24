@@ -21,8 +21,9 @@
   <body class="bg-success">
     <div class="p-3 ">
       <div
-        class="text-center border border-black bg-white mx-auto rounded-4"
+        class="text-center border border-black bg-white mx-auto rounded-4 shadow-lg"
         style="width: 329px;height: 500px;"
+        id="ContainerCard"
       >
         <span
           class="d-block"
@@ -42,6 +43,17 @@
           id="icon2"
           >♥</span
         >
+      </div>
+      <div class="d-flex justify-content-center w-100 mb-3">
+        <button class="mt-5 mx-auto rounded-3 border border-light-subtle" id="lanzarcarta" onclick="GetRandomCard()">Lanzar Carta</button>
+      </div>
+      <div>
+        <label class="text-light" for="ancho">Defina el ancho</label>
+        <input type="number" class="rounded-3 border border-light-subtle"  id="ancho" placeholder="Defina el ancho"></input>
+        <label for="alto" class="text-light">Defina el alto</label>
+        <input type="number" class="rounded-3 border border-light-subtle" id="alto" placeholder="Defina el alto"></input>
+        <button  class="rounded-3 border border-light-subtle" id="anchoyalto" onclick="ChangeWidthHeight()">Definir ancho y alto</button>
+        <button  class="rounded-3 border border-light-subtle" id="Intervale" onclick="IntervalCard()">Intervale chage Card</button>
       </div>
     </div>
 
